@@ -1,0 +1,15 @@
+strokeWeight(8)
+peaches = loadImage("peaches.jpeg")
+mazzy = loadImage("mazzy.jpeg")
+img1= peaches
+img2= mazzy
+size(500,500)
+square(30,30,300)
+line(90,90,90,120)
+line(250,90,250,120)
+line(90, 200, 90, 250)
+line(250, 200, 250, 250)
+line(90, 200, 250, 200)
+image(img1, 290, 80, 200, 190)
+image(img2, 250, 320, 200, 200)
+image(img1, 220, 340, 100, 90)
